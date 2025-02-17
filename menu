@@ -17,7 +17,7 @@ import java.awt.event.KeyEvent;
             TheCard = new CardLayout();
             panel = new JPanel(TheCard);
 
-            mFrame.setSize(600, 500);
+            mFrame.setSize(400, 500);
             mFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             mFrame.setLocationRelativeTo(null);
 
