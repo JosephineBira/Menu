@@ -26,7 +26,6 @@ import java.awt.event.KeyEvent;
             panel.add(createFileDetailsPanel(), "DetailsPanel");
 
             mFrame.setVisible(true);
-
             return mFrame;
         }
 
