@@ -9,7 +9,7 @@ import java.awt.event.KeyEvent;
         JPanel DisplayPanel;
         MenuClass() {
 
-                MenuClass() {
+                
                     MenuClass() {
             this.MenuFrame();
         }
