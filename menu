@@ -7,9 +7,7 @@ import java.awt.event.KeyEvent;
        CardLayout TheCard;
         JPanel panel;
         JPanel DisplayPanel;
-      
-
-                
+                   
                     MenuClass() {
             this.MenuFrame();
         }
