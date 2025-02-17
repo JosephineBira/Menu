@@ -51,7 +51,7 @@ import java.awt.event.KeyEvent;
                 @Override
                 public void actionPerformed(ActionEvent e) {
 
-                    TheCard.show(panel, "DetailsPanel"); // Switch to details panel
+                    TheCard.show(panel, "DetailsPanel");
                 }
             });
             item1.setMnemonic(KeyEvent.VK_N);
