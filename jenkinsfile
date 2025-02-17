@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: ''
+                git url: 'https://github.com/JosephineBira/Menu.git'
             }
         }
         stage('Build') {
@@ -18,14 +18,13 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                sh 'echo "Deploying application..."'
-                // Add your deployment steps here
+                sh 'echo "Deploying application"'
             }
         }
     }
     post {
         always {
-            echo 'Pipeline finished!'
+            echo 'Pipeline finished'
         }
     }
 }
