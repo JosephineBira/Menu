@@ -106,7 +106,7 @@ import java.awt.event.KeyEvent;
 
             JButton saveButton = new JButton("SAVE");
             saveButton.setBackground(Color.orange);
-            saveButton.setFont(new Font("Arial", Font.BOLD, 30));
+            saveButton.setFont(new Font("Arial", Font.BOLD,20));
             saveButton.setFocusPainted(false);
 
             saveButton.addActionListener(new ActionListener() {
